@@ -1,0 +1,117 @@
+.navbar {
+    background-color: rgba(0, 0, 0, 0.9);
+    backdrop-filter: blur(10px);
+    padding: 15px 0;
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+.navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.95);
+    padding: 10px 0;
+    box-shadow: 0 2px 20px rgba(220, 38, 38, 0.3);
+}
+
+.brand-text {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
+.brand-highlight {
+    color: #dc2626;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0 10px;
+    padding: 8px 16px !important;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #dc2626 !important;
+    transform: translateY(-2px);
+}
+
+.navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: #dc2626;
+    transition: width 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover::after {
+    width: 80%;
+}
+
+.cart-link {
+    background-color: #dc2626 !important;
+    border-radius: 20px !important;
+    padding: 8px 16px !important;
+    margin: 0 5px !important;
+}
+
+.cart-link:hover {
+    background-color: #b91c1c !important;
+    color: #ffffff !important;
+}
+
+.dropdown-menu-dark {
+    background-color: #1a1a1a;
+    border: 1px solid #333333;
+}
+
+.dropdown-item {
+    color: #cccccc;
+    background: none;
+    border: none;
+    width: 100%;
+    text-align: left;
+    padding: 8px 16px;
+}
+
+.dropdown-item:hover {
+    background-color: #dc2626;
+    color: #ffffff;
+}
+
+.dropdown-item-text {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.navbar-toggler {
+    border: none;
+    padding: 4px 8px;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='m4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+@media (max-width: 991px) {
+    .navbar-collapse {
+        background-color: rgba(0, 0, 0, 0.95);
+        margin-top: 15px;
+        padding: 20px;
+        border-radius: 8px;
+    }
+}
+
+

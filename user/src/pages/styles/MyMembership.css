@@ -1,0 +1,178 @@
+/* .membership-container {
+  min-height: 100vh;
+  background: url("D:/react/finalgym_madhav/finalgym/finalgym/user/src/images/react_gym_hero.jpeg") center/cover no-repeat fixed;
+  background: url("../../images/react_gym_hero.jpeg") center/cover no-repeat fixed;
+  padding-top: 170px;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.membership-card {
+  background: rgba(0, 0, 0, 0.85);
+  padding: 40px 50px;
+  border-radius: 15px;
+  color: white;
+  width: 600px;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(255, 0, 0, 0.4);
+  border: 2px solid #ff2d2d;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.highlight {
+  color: #ff2d2d;
+}
+
+.details p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.btn-renew {
+  background: #ff2d2d;
+  border: none;
+  padding: 12px 35px;
+  border-radius: 30px;
+  font-size: 18px;
+  margin-top: 25px;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-renew:hover {
+  background: #ff1a1a;
+} */
+
+
+/* .my-m-container {
+  min-height: 100vh;
+  background: url("../../images/react_gym_hero.jpeg") center/cover no-repeat;
+  padding-top: 170px;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.my-m-card {
+  background: rgba(0, 0, 0, 0.85);
+  padding: 40px 50px;
+  border-radius: 15px;
+  color: white;
+  width: 600px;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(255, 0, 0, 0.4);
+  border: 2px solid #ff2d2d;
+}
+
+.my-m-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.my-m-highlight {
+  color: #ff2d2d;
+}
+
+.my-m-details p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.my-m-btn-renew {
+  background: #ff2d2d;
+  border: none;
+  padding: 12px 35px;
+  border-radius: 30px;
+  font-size: 18px;
+  margin-top: 25px;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.my-m-btn-renew:hover {
+  background: #ff1a1a;
+} */
+
+
+.my-m-container {
+  min-height: 100vh;
+  background: url("../../images/react_gym_hero.jpeg") center/cover no-repeat;
+  padding-top: 170px;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.my-m-card {
+  background: rgba(0, 0, 0, 0.85);
+  padding: 40px 50px;
+  border-radius: 15px;
+  color: white;
+  width: 600px;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(255, 0, 0, 0.4);
+  border: 2px solid #ff2d2d;
+}
+
+.my-m-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.my-m-highlight {
+  color: #ff2d2d;
+}
+
+.my-m-details p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.my-m-btn-renew,
+.my-m-btn-cancel {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px 35px;
+  border-radius: 30px;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+  border: none;
+}
+
+.my-m-btn-renew {
+  background: #ff2d2d;
+  color: white;
+}
+
+.my-m-btn-renew:hover {
+  background: #ff1a1a;
+}
+
+.my-m-btn-cancel {
+  background: #333;
+  color: #ff2d2d;
+  border: 2px solid #ff2d2d;
+}
+
+.my-m-btn-cancel:hover {
+  background: #ff2d2d;
+  color: white;
+}

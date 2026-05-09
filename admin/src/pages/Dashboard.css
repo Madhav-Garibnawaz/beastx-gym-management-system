@@ -1,0 +1,118 @@
+/* Dashboard.css - simple card styling that fits bootstrap layout */
+
+.dashboard-wrapper {
+  padding: 22px;
+  padding-right: 36px; /* ensure spacing from right edge */
+}
+
+/* header */
+.dashboard-header h1 {
+  margin: 0 0 6px 0;
+  font-size: 28px;
+  font-weight: 700;
+}
+.dashboard-header .muted {
+  color: #6b7280; /* gray-500 */
+  margin: 0 0 18px 0;
+}
+
+/* card base */
+.admin-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 14px 14px 12px 14px;
+  border: 1px solid rgba(15, 23, 42, 0.06);
+  box-shadow: 0 6px 20px rgba(15, 23, 42, 0.05);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+.admin-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.12);
+}
+
+/* top row inside card */
+.card-top {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+/* icon box */
+.card-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  flex-shrink: 0;
+  box-shadow: 0 6px 16px rgba(2,6,23,0.06);
+}
+.card-icon-blue { background: linear-gradient(135deg,#3b82f6,#1e3a8a); }
+.card-icon-green { background: linear-gradient(135deg,#10b981,#047857); }
+.card-icon-purple { background: linear-gradient(135deg,#8b5cf6,#5b21b6); }
+.card-icon-red { background: linear-gradient(135deg,#ef4444,#b91c1c); }
+
+/* meta */
+.card-title {
+  font-weight: 700;
+  font-size: 14px;
+  color: #111827;
+}
+.card-delta {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+/* main value */
+.card-main {
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+.card-value {
+  font-size: 26px;
+  font-weight: 800;
+  color: #111827;
+}
+.card-sub {
+  font-size: 13px;
+  color: #6b7280;
+}
+
+/* small list items (for recent users) */
+.card-list {
+  margin-top: 10px;
+  border-top: 1px solid rgba(15, 23, 42, 0.04);
+  padding-top: 10px;
+}
+.card-list-item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 6px 0;
+}
+.card-list-item .bullet {
+  width: 8px;
+  height: 8px;
+  background: #e6edf6;
+  border-radius: 50%;
+  margin-top: 6px;
+}
+.list-name {
+  font-weight: 600;
+  font-size: 13px;
+  color: #0f172a;
+}
+.list-sub {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+/* small utilities */
+.muted { color: #6b7280; }
